@@ -49,7 +49,10 @@
 <body>
   <div id="app"></div>
   <script>
+    // GitHub Pages「项目站点」部署在子路径下（如 /enjoy-springboot-scaffold-docs/），
+    // 必须设置 basePath，否则会从站点根加载 _sidebar.md 等资源导致 404，左侧导航为空。
     window.$docsify = {
+      basePath: '/enjoy-springboot-scaffold-docs/',
       name: 'SpringCloud 脚手架',
       repo: '',
       loadSidebar: true,
