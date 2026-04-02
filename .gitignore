@@ -1,0 +1,5 @@
+# 本仓库是 docsify 文档工程，默认需要提交 Markdown。
+# 如果你的全局 gitignore 忽略了 *.md，这里显式取消忽略，避免新文档不显示为 untracked。
+!*.md
+!**/*.md
+
